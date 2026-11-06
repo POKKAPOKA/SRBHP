@@ -1,0 +1,2 @@
+import { signOut } from "@/app/actions/auth";
+export default function Pending() { return <main className="mx-auto min-h-[70vh] max-w-xl px-6 py-24"><p className="text-xs font-bold tracking-widest text-violet-600">MEMBERSHIP</p><h1 className="mt-4 text-3xl font-black">承認をお待ちください</h1><p className="mt-5 leading-8 text-slate-600">サークル長による承認後、部員ポータルをご利用いただけます。</p><form action={signOut}><button className="mt-8 rounded-xl border border-slate-200 bg-white px-5 py-3 font-bold">ログアウト</button></form></main>; }

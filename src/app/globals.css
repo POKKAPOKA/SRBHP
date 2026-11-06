@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@theme inline { --animate-marquee: marquee 35s linear infinite; @keyframes marquee { to { transform: translateX(-50%); } } }
+body { background: #f8fafc; color: #0f172a; font-family: Arial, sans-serif; }
+@media (prefers-reduced-motion: reduce) { .animate-marquee { animation: none; } }
